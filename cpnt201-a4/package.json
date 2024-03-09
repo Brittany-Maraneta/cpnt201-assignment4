@@ -1,8 +1,11 @@
 {
-  "name": "cpnt201-a4",
+  "name": "201-a4",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "project description": "to create a vite project using npm and pull request in GitHub",
+  "project author": "Brittany M.",
+  "project license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,5 +13,8 @@
   },
   "devDependencies": {
     "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10"
   }
 }
