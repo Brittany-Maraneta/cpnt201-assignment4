@@ -4,7 +4,8 @@ import viteLogo from "/images/vite.svg";
 import { setupCounter } from "./counter.js";
 import { currentTime } from "./day.js";
 import { difference } from "./diff.js";
-import photo1 from "/images/photo.jpg";
+
+// import Carousel from "@zag-js/carousel";
 
 document.querySelector("#app").innerHTML = `
   <div>
@@ -30,12 +31,9 @@ document.querySelector("#app").innerHTML = `
     <p id="difference"></p>
     </div>
 
-    <a href="" target="_blank">
-    <img src="${photo1}" class="" alt="" />
-  </a>
+   
 
-
-
+   
  
 
 `;

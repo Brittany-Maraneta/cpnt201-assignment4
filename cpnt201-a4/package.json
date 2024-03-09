@@ -12,9 +12,12 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "giffy-images": "^1.1.11",
     "vite": "^5.1.4"
   },
   "dependencies": {
-    "dayjs": "^1.11.10"
+    "@zag-js/carousel": "^0.38.0",
+    "dayjs": "^1.11.10",
+    "images": "^3.2.4"
   }
 }
